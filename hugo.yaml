@@ -1,0 +1,32 @@
+baseURL: ""
+languageCode: en-us
+title: AI/ML for Weather & Climate
+theme: ["PaperMod"]
+
+params:
+  socialIcons: # optional
+    - name: "LinkedIn"
+      url: "www.linkedin.com/in/itsmohitanand"
+    - name: "GitHub"
+      url: "www.github.com/melioristic"
+
+  homeInfoParams:
+    Title: "Mohit Anand"
+    Content: "Hi, I’m Mohit Anand, a final-year PhD researcher at TU Dresden in Germany. I’m passionate about forecasting and understanding sequential data. My PhD research focuses on generative modeling and representation learning for weather and climate data, which inherently involve complex spatio-temporal dynamics. I will be sharing my research, projects, and thoughts here."
+
+
+menu: 
+  main:
+    - Name: "Home"
+      URL: "/"
+      weight: 1
+    - Name: "Resume"
+      URL: "/categories/"
+      weight: 5
+    # - Name: "Blogs"
+    #   URL: "/blogs/"
+    #   weight: 2
+    - Name: "Projects"
+      URL: "/archives/"
+      weight: 3
+
